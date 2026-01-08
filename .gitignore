@@ -1,0 +1,23 @@
+# Terraform working dir
+.terraform/
+
+# Terraform lock file (보통 커밋함 → 선택)
+.terraform.lock.hcl
+
+# State files (절대 커밋 금지)
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
+
+*.tflock
+*.tfvars
+
+*.issue.txt
+*-secrets.yaml
+*-secret.yaml
+*.yaml
+
+cleanup_result/
+airflow-dags/

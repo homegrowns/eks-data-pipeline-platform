@@ -1,0 +1,12 @@
+1. tf apply
+2. airflow-values2.yaml -> annotations: 클러스터 arm 변경 
+eks.amazonaws.com/role-arn: "arn:aws:iam::730746842295:role/AirflowWorkerS3Role-eks-airflow-8Qo"
+3. iam 역활에서 AirflowWorkerS3Role-eks-airflow-8Qo 이름확인
+
+4. airflow-secret.yaml 파일 # Airflow Connections 설정에서  "arn:aws ~" 체크
+
+issue
+1. fargate node 에 워커 kube api랑 통신안됨 
+->   podAnnotations:
+  # 0.0.0.0/0이 열려 있는 Node Shared SG ID를 넣습니다.
+    fargate.amazonaws.com/security-groups: "sg-0a4f6915a0f70cd08" 이설정 맞는지 체크 
