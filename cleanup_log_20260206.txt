@@ -1,0 +1,14 @@
+[2026-02-06 00:29:48] Deleting kubeconfig entries for: arn:aws:eks:ap-northeast-2:790813558211:cluster/eks-malware-jry
+warning: this removed your active context, use "kubectl config use-context" to select a different one
+deleted context arn:aws:eks:ap-northeast-2:790813558211:cluster/eks-malware-jry from /home/liam/.kube/config
+deleted cluster arn:aws:eks:ap-northeast-2:790813558211:cluster/eks-malware-jry from /home/liam/.kube/config
+deleted user arn:aws:eks:ap-northeast-2:790813558211:cluster/eks-malware-jry from /home/liam/.kube/config
+[2026-02-06 00:29:49] SUCCESS: Cleanup completed for eks-malware-jry
+[2026-02-06 00:29:49] -------------------------------------------
+[2026-02-06 18:56:15] Deleting kubeconfig entries for: arn:aws:eks:ap-northeast-2:790813558211:cluster/eks-malware-7mf
+warning: this removed your active context, use "kubectl config use-context" to select a different one
+deleted context arn:aws:eks:ap-northeast-2:790813558211:cluster/eks-malware-7mf from /home/liam/.kube/config
+deleted cluster arn:aws:eks:ap-northeast-2:790813558211:cluster/eks-malware-7mf from /home/liam/.kube/config
+deleted user arn:aws:eks:ap-northeast-2:790813558211:cluster/eks-malware-7mf from /home/liam/.kube/config
+[2026-02-06 18:56:15] SUCCESS: Cleanup completed for eks-malware-7mf
+[2026-02-06 18:56:15] -------------------------------------------

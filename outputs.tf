@@ -38,14 +38,10 @@ output "alb_controller_role_arn" {
   value = module.alb_controller_irsa.iam_role_arn
 }
 
-output "Airflow_Worker_S3_role_arn" {
-  value = module.irsa-airflow-worker.iam_role_arn
-}
-
 output "debug_fargate_network_check" {
   description = "Fargate 네트워크 경로 진단을 위한 정보"
   value = {
-    fargate_profile_subnets = module.eks.fargate_profiles.airflow_worker
+    # fargate_profile_subnets = module.eks.fargate_profiles.airflow_worker
     vpc_private_route_table_ids = module.vpc.private_route_table_ids
     nat_gateway_ids          = module.vpc.natgw_ids
   }

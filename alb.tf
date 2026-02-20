@@ -56,6 +56,12 @@ resource "helm_release" "aws_load_balancer_controller" {
       name  = "vpcId"
       value = module.vpc.vpc_id
     },
+
+    {
+      name  = "nodeSelector.role"
+      value = "airflow"
+    },
+
     {
       name  = "serviceAccount.create"
       value = "false"

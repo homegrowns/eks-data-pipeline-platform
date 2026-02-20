@@ -43,15 +43,4 @@ terraform {
     }
   }
 
-    backend "s3" {
-    bucket         = "eks-airflow-bucket"
-    key            = "terraform/eks-airflow-cluster/terraform.tfstate"
-    region         = "ap-northeast-2"
-    use_lockfile   = true
-    dynamodb_table = "eks-airflow-terraform-lock"
-  }
-
-# 1.terraform init (backend "s3"  주석처리후 실행)
-# 2.terraform apply  # -> 여기서 S3와 DynamoDB가 실제로 생성됨
-# 3.terraform init (backend "s3"  주석제거후 실행)
 }

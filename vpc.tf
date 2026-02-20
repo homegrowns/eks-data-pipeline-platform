@@ -2,7 +2,7 @@ module "vpc" {
   source  = "terraform-aws-modules/vpc/aws"
   version = "5.8.1"
 
-  name = "airflow-cluster-vpc"
+  name = "malware-cluster-vpc"
 
   cidr = "10.0.0.0/16"
 

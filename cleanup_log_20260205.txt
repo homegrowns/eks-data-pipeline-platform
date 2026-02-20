@@ -1,0 +1,7 @@
+[2026-02-05 00:05:37] Deleting kubeconfig entries for: arn:aws:eks:ap-northeast-2:790813558211:cluster/eks-malware-JBT
+warning: this removed your active context, use "kubectl config use-context" to select a different one
+deleted context arn:aws:eks:ap-northeast-2:790813558211:cluster/eks-malware-JBT from /home/liam/.kube/config
+deleted cluster arn:aws:eks:ap-northeast-2:790813558211:cluster/eks-malware-JBT from /home/liam/.kube/config
+deleted user arn:aws:eks:ap-northeast-2:790813558211:cluster/eks-malware-JBT from /home/liam/.kube/config
+[2026-02-05 00:05:38] SUCCESS: Cleanup completed for eks-malware-JBT
+[2026-02-05 00:05:38] -------------------------------------------

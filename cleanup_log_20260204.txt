@@ -1,0 +1,7 @@
+[2026-02-04 06:25:25] Deleting kubeconfig entries for: arn:aws:eks:ap-northeast-2:790813558211:cluster/eks-airflow-fzG
+warning: this removed your active context, use "kubectl config use-context" to select a different one
+deleted context arn:aws:eks:ap-northeast-2:790813558211:cluster/eks-airflow-fzG from /home/liam/.kube/config
+deleted cluster arn:aws:eks:ap-northeast-2:790813558211:cluster/eks-airflow-fzG from /home/liam/.kube/config
+deleted user arn:aws:eks:ap-northeast-2:790813558211:cluster/eks-airflow-fzG from /home/liam/.kube/config
+[2026-02-04 06:25:26] SUCCESS: Cleanup completed for eks-airflow-fzG
+[2026-02-04 06:25:26] -------------------------------------------
